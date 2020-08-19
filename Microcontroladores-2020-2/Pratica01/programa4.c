@@ -10,7 +10,7 @@ int main(void) {
  printf("Informe um valor inteiro:");
  scanf("%d", &numero_inteiro);
  printf("Informe uma letra:");
- scanf(" %c", &letra);
+ scanf(" %c", &letra); //a tecla enter pode ser lida como letra digitada, para corrigir adicionar espaçoantes de %c//
 
  printf("Valor real: %f\n", numero_real);
  printf("Valor inteiro: %d\n", numero_inteiro);
